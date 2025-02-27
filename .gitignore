@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+dist/
+build/
+.cache/
+.nyc_output/
+coverage/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+yarn-error.log
+yarn-debug.log
+npm-debug.log
+logs/
+*.log
+*.pid
+*.seed
+*.csv
+
+# TypeScript
+*.tsbuildinfo
+
+# AWS SDK & DynamoDB
+.aws-sam/
+.aws/
+cdk.out/
+terraform.tfstate*
+terraform.tfstate.backup*
+
+# React / Vite
+.vite/
+*.cache
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Jest / Testing
+coverage/
+jest-test-results.json
+.vitest/
+
